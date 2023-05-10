@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminScreenBook"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/showBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Книги"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/showUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="8dp"
+            android:text="Пользователи"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/showPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="8dp"
+            android:text="Полки"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/border"
+        android:focusable="false"
+        app:closeIcon="@drawable/ic_clear_24"
+        app:iconifiedByDefault="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line"
+        app:queryHint="Поиск книг..."
+        app:searchIcon="@drawable/ic_search" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ListView
+                android:id="@+id/listviewtxt"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:layout_weight="0.1"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <ImageView
+            android:id="@+id/btnAdd"
+            android:layout_width="55dp"
+            android:layout_height="58dp"
+            android:elevation="5dp"
+            android:padding="5dp"
+            android:src="@drawable/icon_add4" />
+
+        <ImageView
+            android:id="@+id/btnUpdate"
+            android:layout_width="55dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_update" />
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="55dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_delete" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!---->
+    <dimen name="size_main_text_MainScreen">43sp</dimen>
+    <dimen name="place_main_text_top_MainScreen">80dp</dimen>
+    <dimen name="place_main_text_left_MainScreen">12dp</dimen>
+
+    <dimen name="place_button_top_MainScreen">300dp</dimen>
+    <dimen name="place_button_left_MainScreen">160dp</dimen>
+
+    <dimen name="size_textLih_MainScreen">20sp</dimen>
+    <dimen name="place_textL_top_MainScreen">10dp</dimen>
+    <dimen name="place_textL_left_MainScreen">9dp</dimen>
+    <dimen name="place_Lih_top_MainScreen">110dp</dimen>
+    <dimen name="place_Lih_left_MainScreen">200dp</dimen>
+
+
+    <dimen name="size_button_w">100dp</dimen>
+    <dimen name="size_button_h">50dp</dimen>
+
+
+    <!---->
+    <dimen name="button_registr_top_AvtorizScreen">20dp</dimen>
+    <dimen name="button_registr_left_AvtorizScreen">180dp</dimen>
+    <dimen name="button_registr_left_RegistScreen">100dp</dimen>
+
+    <dimen name="place_avtorizText_top_AvtorizScreen">110dp</dimen>
+    <dimen name="place_avtorizText_left_AvtorizScreen">70dp</dimen>
+
+    <dimen name="size_login">20sp</dimen>
+    <dimen name="place_login_top">0dp</dimen>
+    <dimen name="place_login_left">160dp</dimen>
+    <dimen name="place_text_login_top">10dp</dimen>
+    <dimen name="place_text_login_left">14dp</dimen>
+
+    <dimen name="place_password_top">50dp</dimen>
+    <dimen name="place_password_left">170dp</dimen>
+    <dimen name="place_text_password_top">60dp</dimen>
+    <dimen name="place_text_password_left">14dp</dimen>
+    <!---->
+
+    <!---->
+    <!--
+    <dimen name="btn_see_place_book_top">650dp</dimen>-->
+    <!---->
+
+    <dimen name="place_reg_fio_top">100dp</dimen>
+    <dimen name="place_reg_fio_left">150sp</dimen>
+    <dimen name="place_text_reg_fio_top">110dp</dimen>
+
+    <dimen name="btn_reg_enter_top">370dp</dimen>
+    <!---->
+
+    <!--<dimen name="icon_add_top_ProfilScreen">10dp</dimen>
+        <dimen name="icon_size">80dp</dimen>
+-->
+
+    <dimen name="icon_profil_left_ProfilScreen">340dp</dimen>
+    <dimen name="icon_chat_left_ProfilScreen">245dp</dimen>
+    <dimen name="icon_poisk_left_ProfilScreen">30dp</dimen>
+    <dimen name="icon_add_left_ProfilScreen">135dp</dimen>
+    <dimen name="icon_back_left_ProfilScreen">10dp</dimen>
+    <dimen name="icon_size_width">55dp</dimen>
+    <dimen name="icon_size_height">58dp</dimen>
+    <dimen name="icon_back_size_width">50dp</dimen>
+    <dimen name="icon_back_size_height">50dp</dimen>
+
+    <!---->
+    <dimen name="add_book_size">40sp</dimen>
+    <dimen name="add_book_top">10dp</dimen>
+    <dimen name="add_book_left">20dp</dimen>
+    <!---->
+    <dimen name="size_text_enter_name_book">18sp</dimen>
+    <dimen name="name_book_top">10dp</dimen>
+    <dimen name="name_book_left">10dp</dimen>
+    <dimen name="auhtor_book_top">50dp</dimen>
+    <dimen name="auhtor_book_top_enter">40dp</dimen>
+    <dimen name="auhtor_book_left">190dp</dimen>
+
+    <dimen name="button_nazad_top">370dp</dimen>
+    <dimen name="button_nazad_left">125dp</dimen>
+
+    <dimen name="fon_main_window_profil">500dp</dimen>
+
+</resources>

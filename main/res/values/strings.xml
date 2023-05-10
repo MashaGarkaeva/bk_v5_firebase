@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">BookCross</string>
+    <string name="title_activity_maps">VibeBook</string>
+
+    <string name="main_text">Добро пожаловать</string>
+    <string name="Lihachov">Книгу заменить ничем нельзя. Несмотря на новейшие открытия, новые виды сохранения информации, не будем спешить расставаться с книгой."</string>
+    <string name="name_Lihachov">Дмитрий Лихачев</string>
+    <string name="button_text">Войти</string>
+
+    <string name="login_enter">Введите логин:</string>
+    <string name="login">Логин</string>
+    <string name="avtoriz">Авторизация</string>
+    <string name="password_enter">Введите пароль:</string>
+    <string name="password">Пароль</string>
+    <string name="button_registr">Зарегистрироваться</string>
+
+    <string name="btn_see_place_books">Посмотреть места безопасной полки</string>
+
+    <string name="reg_fio">Введите ФИО:</string>
+    <string name="fio">ФИО</string>
+
+    <string name="add_book_text">Отпустить книгу</string>
+
+    <string name="name_book_enter">Введите название книги:</string>
+    <string name="name_book">Название</string>
+    <string name="auhtor_book_enter">Введите автора книги:</string>
+    <string name="auhtor_book">Автор</string>
+    <string name="button_save">Сохранить</string>
+
+    <string name="button_nazad">Вернуться назад</string>
+    <string name="reg_name">Имя</string>
+    <string name="reg_userName">Ник</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+</resources>

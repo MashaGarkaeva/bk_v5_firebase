@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="place">
+        <item>HELIOPARK Cruise</item>
+        <item>HELIOPARK Residence</item>
+        <item>Антикафе Крылья</item>
+        <item>Антикафе Чердак</item>
+        <item>Бизнес-центр Гермес</item>
+        <item>Бизнес-центр Сокол</item>
+        <item>Городская библиотека №17</item>
+        <item>Дом молодёжи</item>
+        <item>Типография №1</item>
+        <item>ТЦ Лето</item>
+        <item>ТЦ Март</item>
+
+    </string-array>
+</resources>
